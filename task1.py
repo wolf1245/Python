@@ -113,8 +113,8 @@ print(position)
 
 number = int(input("Введите целое пятизначное число: "))
 my_str = str(number)
-number = int(my_str[0]) + int(my_str[1]) + int(my_str[2]) + int(my_str[3]) + int(my_str[4])
-print(type(number))
+num = int(my_str[0]) + int(my_str[1]) + int(my_str[2]) + int(my_str[3]) + int(my_str[4])
+print(num)
 
 # 19. Напишите программу, которая запрашивает целое четырехзначное число
 # и меняет местами его две первые и две последние цифры.
@@ -125,8 +125,8 @@ print(type(number))
 
 number = int(input("Введите целое четырехзначное число: "))
 my_str = str(number)
-number = int(my_str[3] + my_str[2] + my_str[0] + my_str[1])
-print(type(number))
+num = int(my_str[3] + my_str[2] + my_str[0] + my_str[1])
+print(num)
 
 # 20. Напишите программу, которая на основании параметра D (сколько километров в день преодолевает машина),
 # рассчитывает сколько дней она затратит на путь длиной P километров.
